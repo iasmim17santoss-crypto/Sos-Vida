@@ -4,10 +4,10 @@ import { Stethoscope, Calendar, Clock, Phone, Award, Users, ChevronDown, Chevron
 interface Props { showToast: (msg: string) => void; }
 
 const TEAM = [
-  { name: "Dra. Camila Rocha", role: "Clínica Geral e Emergência", crmv: "CRMV-RJ 12.847", img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&h=200&fit=crop&auto=format", exp: "12 anos de experiência" },
-  { name: "Dr. Marcos Vinicius", role: "Cirurgias e Ortopedia", crmv: "CRMV-RJ 9.531", img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&h=200&fit=crop&auto=format", exp: "8 anos de experiência" },
-  { name: "Dra. Juliana Mendes", role: "Animais Silvestres", crmv: "CRMV-RJ 15.223", img: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&h=200&fit=crop&auto=format", exp: "10 anos de experiência" },
-  { name: "Dr. Rafael Santos", role: "Dermatologia e Nutrição", crmv: "CRMV-RJ 11.094", img: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=200&h=200&fit=crop&auto=format", exp: "6 anos de experiência" },
+  { name: "Dra. Mariangela", role: "Clínica Geral e Emergência", crmv: "CRMV-RJ 12.847", img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&h=200&fit=crop&auto=format", exp: "12 anos de experiência" },
+  { name: "Dr. Helvio Geronimo", role: "Cirurgias e Ortopedia", crmv: "CRMV-RJ 9.531", img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=200&h=200&fit=crop&auto=format", exp: "8 anos de experiência" },
+  { name: "Dra. Spancek", role: "Animais Silvestres", crmv: "CRMV-RJ 15.223", img: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=200&h=200&fit=crop&auto=format", exp: "10 anos de experiência" },
+  { name: "Dr. Marcelo", role: "Dermatologia e Nutrição", crmv: "CRMV-RJ 11.094", img: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=200&h=200&fit=crop&auto=format", exp: "6 anos de experiência" },
 ];
 
 const SERVICES = [
